@@ -1,26 +1,26 @@
 {
   "development": {
-    "username": "projekat2_collectdid",
+    "username": "projekat_winallmeme",
     "password": "12345678",
-    "database": "projekat2_collectdid",
-    "host": "zix.h.filess.io",
-    "port": 3307,
+    "database": "projekat_winallmeme",
+    "host": "piu.h.filess.io",
+    "port": 3305,
     "dialect": "mariadb"
   },
   "test": {
-   "username": "projekat2_collectdid",
+  "username": "projekat_winallmeme",
     "password": "12345678",
-    "database": "projekat2_collectdid",
-    "host": "zix.h.filess.io",
-    "port": 3307,
+    "database": "projekat_winallmeme",
+    "host": "piu.h.filess.io",
+    "port": 3305,
     "dialect": "mariadb"
   },
   "production": {
-    "username": "projekat2_collectdid",
+    "username": "projekat_winallmeme",
     "password": "12345678",
-    "database": "projekat2_collectdid",
-    "host": "zix.h.filess.io",
-    "port": 3307,
+    "database": "projekat_winallmeme",
+    "host": "piu.h.filess.io",
+    "port": 3305,
     "dialect": "mariadb"
   }
 }
