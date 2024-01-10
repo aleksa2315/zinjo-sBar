@@ -1,17 +1,11 @@
 const express = require('express');
-const { sequelize, Users, Sequelize } = require('./models');
+const { sequelize, Users } = require('./models');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-
-sequelize = new Sequelize('projekat2_collectdid', 'projekat2_collectdid', '12345678', {
-  host: 'zix.h.filess.io',
-  port: 3307,
-  dialect: 'mariadb',
-});
 
 var corsOptions = {
     origin: ['http://localhost:5173','http://localhost:3000','http://localhost:8000'],
