@@ -7,7 +7,7 @@ require('dotenv').config();
 
 const app = express();
 
-const sequelize = new Sequelize('projekat2_collectdid', 'projekat2_collectdid', '12345678', {
+sequelize = new Sequelize('projekat2_collectdid', 'projekat2_collectdid', '12345678', {
   host: 'zix.h.filess.io',
   port: 3307,
   dialect: 'mariadb',
