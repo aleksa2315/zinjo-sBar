@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "skriptbaza",
-    "host": "127.0.0.1",
+    "password": "root",
+    "database": "zinjosba_skript_baza",
+    "host": "cloud3.googiehost.com",
     "dialect": "mariadb"
   },
   "test": {
