@@ -6,7 +6,13 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
+const Sequelize = require('sequelize');
 
+const sequelize = new Sequelize('projekat2_collectdid', 'projekat2_collectdid', '12345678', {
+  host: 'zix.h.filess.io',
+  port: 3307, // Specify the port explicitly
+  dialect: 'mariadb',
+});
 
 var corsOptions = {
     origin: ['http://localhost:5173','http://localhost:3000','http://localhost:8000'],
