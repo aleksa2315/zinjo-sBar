@@ -1,11 +1,11 @@
 {
   "development": {
-    "username": "root",
-    "password": "root",
-    "database": "zinjosba_skript_baza",
-    "host": "cloud3.googiehost.com",
+    "username": "projekat2_collectdid",
+    "password": "12345678",
+    "database": "projekat2_collectdid",
+    "host": "zix.h.filess.io",
     "dialect": "mariadb"
-  },
+  },,
   "test": {
     "username": "root",
     "password": null,
