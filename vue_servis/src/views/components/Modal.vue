@@ -118,7 +118,7 @@ const toggleModal = ref(false)
 watch(toggleModal, async (modalState) => {
   if (modalState === true) {
     try {
-      const response = await fetch('http://localhost:9000/kokteli/' + props.id)
+      const response = await fetch('https://zinjos-bar.onrender.com' + '/kokteli/' + props.id)
       const data = await response.json()
       drink.value.name = data.naziv
       drink.value.price = data.cena
