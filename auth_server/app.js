@@ -6,7 +6,6 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-const Sequelize = require('sequelize');
 
 const sequelize = new Sequelize('projekat2_collectdid', 'projekat2_collectdid', '12345678', {
   host: 'zix.h.filess.io',
