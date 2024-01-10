@@ -8,17 +8,19 @@
     "dialect": "mariadb"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+   "username": "projekat2_collectdid",
+    "password": "12345678",
+    "database": "projekat2_collectdid",
+    "host": "zix.h.filess.io",
+    "port": 3307,
+    "dialect": "mariadb"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "projekat2_collectdid",
+    "password": "12345678",
+    "database": "projekat2_collectdid",
+    "host": "zix.h.filess.io",
+    "port": 3307,
+    "dialect": "mariadb"
   }
 }
