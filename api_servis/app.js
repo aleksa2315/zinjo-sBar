@@ -4,6 +4,13 @@ const route = express.Router();
 const app = express();
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
+const Sequelize = require('sequelize');
+
+const sequelize = new Sequelize('projekat2_collectdid', 'projekat2_collectdid', '12345678', {
+  host: 'zix.h.filess.io',
+  port: 3307, // Specify the port explicitly
+  dialect: 'mariadb',
+});
 function authToken(req, res, next) {
     const authHeader = req.headers['authorization'];
     const token = authHeader && authHeader.split(' ')[1];
