@@ -5,7 +5,7 @@
     "database": "projekat2_collectdid",
     "host": "zix.h.filess.io",
     "dialect": "mariadb"
-  },,
+  },
   "test": {
     "username": "root",
     "password": null,
