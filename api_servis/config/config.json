@@ -1,25 +1,25 @@
 {
   "development": {
-    "username": "projekat_winallmeme",
+    "username": "skriptbaza_bornfinish",
     "password": "12345678",
-    "database": "projekat_winallmeme",
-    "host": "piu.h.filess.io",
+    "database": "skriptbaza_bornfinish",
+    "host": "3kt.h.filess.io",
     "port": 3305,
     "dialect": "mariadb"
   },
   "test": {
-  "username": "projekat_winallmeme",
+  "username": "skriptbaza_bornfinish",
     "password": "12345678",
-    "database": "projekat_winallmeme",
-    "host": "piu.h.filess.io",
+    "database": "skriptbaza_bornfinish",
+    "host": "3kt.h.filess.io",
     "port": 3305,
     "dialect": "mariadb"
   },
   "production": {
-    "username": "projekat_winallmeme",
+    "username": "skriptbaza_bornfinish",
     "password": "12345678",
-    "database": "projekat_winallmeme",
-    "host": "piu.h.filess.io",
+    "database": "skriptbaza_bornfinish",
+    "host": "3kt.h.filess.io",
     "port": 3305,
     "dialect": "mariadb"
   }
