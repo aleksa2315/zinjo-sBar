@@ -1,4 +1,4 @@
-# This is an Node.JS webbapp. 
+# Zinjo's bar
 ### Api service is used for database sequalization and route handleing. It is written in JavaScript and uses Express.JS.
 ### App service is the admin dashboard. It's purpose is to handle creations of new Cocktails, Categories, Ingredients etc.., also to view pending orders. It's written in HTML and CSS and uses Express.JS.
 ### Auth service is used for authentication of users with JWT. Also it handles creating models for Users using sequelize.
